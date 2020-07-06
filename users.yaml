@@ -3,5 +3,11 @@
     - db: "*"
       grant_type: crud
       not_valid_after: 2020-05-16 04:16:00 +01
+    - db: blackwells
+      db_names:
+        - db_blackwells
+        - ebooks
 
-
+- login: ebo@eliez.io
+  permissions:
+    - db: blackwells
